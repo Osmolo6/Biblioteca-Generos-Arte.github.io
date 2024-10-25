@@ -64,11 +64,11 @@ img {
 }
 
 /* Contenedor Imagen de Fondo */
-.contenedor {
+/*.contenedor {
   position: absolute;
   top: 20px;
   left: 100px;
-}
+}*/
 /* Contenedor de Logo Smenor */
 .contenedor1 {
   width: 100%;
