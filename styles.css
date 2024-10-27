@@ -15,23 +15,20 @@ body {
 
 /* Contenedor de la tabla */
 .container {
-  position: fixed;
   border: 1px solid rgba(255, 255, 255, 0);
   padding: 20px;
-  width: 100%;
-  height: 100%;
 }
 
 /* Tabla */
 table {
-  position: fixed;
   width: 80%;
   height: auto;
   color: aliceblue;
   font-size: 14px;
   border-collapse: collapse;
+  position: absolute;
   top: 40%;
-  left: center;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 /* P.Superior Tabla */
@@ -59,47 +56,39 @@ tbody tr:hover {
   cursor: pointer;
 }
 
-/* Contenedor Logo Smenor */
-.contenedor {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 /* Logo Smenor */
 img {
-  position: fixed;
-  width: 3.5%;
+  width: 10%;
   height: auto;
-  top: 1.6%;
-  left: 13%;
+  color: #000000;
 }
 
-/* Contenedor del fonfo */
+/* Contenedor Imagen de Fondo */
+.contenedor {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+/* Contenedor de Logo Smenor */
 .contenedor1 {
-  position: fixed;
-  text-align: center;
   width: 100%;
-  height: 100%;
+  text-align: center;
 }
 /* Imagen de Fondo */
-.fondo {
+.fondo-imagen {
   position: fixed; /* Fija la imagen al fondo */
-  width: 100%; /* Ancho del 100% de la viewport */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000%; /* Ancho del 100% de la viewport */
   height: auto; /* Alto del 100% de la viewport */
-  background-image: url('https://lh3.googleusercontent.com/p/AF1QipPgNgM7Fl_9gT4IhlgJtBs0vsCcSBCSe4cBkd3u=s680-w680-h510');
+  background-image: url('ruta/a/tu/imagen.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -2; /* Coloca la imagen detrás de otros elementos */
+  z-index: -1; /* Coloca la imagen detrás de otros elementos */
   opacity: 0.16;
-  top: center;
-  left: 0;
 }
-
-
-
-
 /* Boton de busqueda */
 button {
   background: url('icono-buscar.png');
@@ -126,7 +115,7 @@ input[type="text"] {
 button {
   padding: 10px 20px;
   background-color:   
-#ffffff;
+#4CAF50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -151,5 +140,4 @@ a {
   border-radius: 12px;
   box-shadow: 0 5px #00000071;
 }
-
 
