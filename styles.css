@@ -207,7 +207,7 @@ tbody tr:hover {
     font-size: 14px;
     border-collapse: collapse;
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -248,6 +248,9 @@ tbody tr:hover {
     position: absolute;
     top: 20px;
     left: 100px;
+    top: 9%;
+    left: 40%;
+    transform: translate(-50%, -50%);
   }
   /* Contenedor de Logo Smenor */
   .contenedor1 {
