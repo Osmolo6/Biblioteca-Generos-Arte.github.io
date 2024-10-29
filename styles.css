@@ -2,7 +2,7 @@
   width: 100%;
   text-align: center;
 }
-
+  
 /** Movil --------------------------------------------------------------------------------------------------------------------------------------------**/
 
 @media (max-width: 767px){
@@ -29,6 +29,7 @@ body {
 
 /* Tabla */
 table {
+  z-index: -2;
   width: 80%;
   height: auto;
   color: aliceblue;
@@ -82,13 +83,14 @@ tbody tr:hover {
 
   /* Logo Smenor */
   img {
-    width: 5%;
+    width: 10%;
     height: auto;
     color: #000000;
   }
 
   /* Boton de busqueda */
   button {
+    z-index: -4;
     background: url('icono-buscar.png');
     padding-left: 10px;
   }
@@ -205,7 +207,7 @@ tbody tr:hover {
     font-size: 14px;
     border-collapse: collapse;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -236,7 +238,7 @@ tbody tr:hover {
   
   /* Logo Smenor */
   img {
-    width: 10%;
+    width: 8%;
     height: auto;
     color: #000000;
   }
@@ -391,7 +393,7 @@ tbody tr:hover {
   
   /* Logo Smenor */
   img {
-    width: 10%;
+    width: 7%;
     height: auto;
     color: #000000;
   }
